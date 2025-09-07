@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3a8a, #0d9488); /* Indigo → Teal */
+  color: #fff;
+  text-align: center;
+}
+
+/* App Title */
+.form-card h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8; /* Sky Blue */
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Form Container */
+.form-card {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #1e40af, #0f766e); /* Indigo → Teal */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+
+/* Input Box */
+.city-input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: #000;
+}
+
+/* Buttons (Submit + Reload) */
+.get-weather-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #22c55e; /* Emerald Green */
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.get-weather-btn:hover {
+  background-color: #16a34a; /* Darker Emerald */
+}
+
+/* Weather Card */
+.weather-card {
+  background: linear-gradient(135deg, #1e40af, #0f766e); /* Indigo → Teal */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.weather-card h2 {
+  font-size: 24px;
+  color: #38bdf8; /* Sky Blue */
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #a7f3d0; /* Soft Mint for contrast */
+}

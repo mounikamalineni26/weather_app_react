@@ -1,0 +1,32 @@
+.weather-card {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #1e40af, #0f766e); /* Indigo → Teal */
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  font-family: 'Poppins', sans-serif;
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #38bdf8; /* Sky Blue heading */
+  text-shadow: 1px 1px 4px black;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  text-transform: capitalize;
+  color: #a7f3d0; /* Mint Green for better contrast */
+}
+
+.weather-details p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #e0f2fe; /* Light Cyan for details */
+}
